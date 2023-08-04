@@ -1,0 +1,18 @@
+.menuLateral{
+    display: inline-block;
+    background-color: orange;
+    width: 20%;
+    height: 10000px;
+}
+.principal{
+    display: inline-block;
+    background-color: aqua;
+    width: 60%;
+    height: 10000px;
+}
+.arquivo{
+    display: inline-block;
+    background-color: blue;
+    width: 20%;
+    height: 10000px;
+}
