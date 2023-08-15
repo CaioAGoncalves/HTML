@@ -1,0 +1,63 @@
+.faixaPreta{
+    background-color: black;
+    height: 1000px;
+    width: 350px;
+}
+.imagem{
+    width: 230px;
+    height: 220px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.nome{
+    color: aqua;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 29%;
+    font-weight: bold;
+}
+.god{
+   color: white;
+   font-size: 38px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 73px;
+}
+.skills{
+  color: white;
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.skillPontos{
+  color: white;
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.pontinhoAzul{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: aqua;
+    font-size: 100px;
+    position: relative;
+    margin-left: 80px;
+   
+}
+.pontinhoCinza{
+    color: gray;
+    font-size: 100px;
+}
+hr{
+    margin-left: 25px;
+    width: 250px;
+}
