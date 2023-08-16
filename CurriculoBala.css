@@ -2,12 +2,13 @@
     background-color: black;
     height: 1000px;
     width: 350px;
+    display: inline-block;
 }
 .imagem{
     width: 230px;
     height: 220px;
     border-radius: 50%;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 50px;
 }
 .nome{
@@ -19,7 +20,7 @@
 }
 .god{
    color: white;
-   font-size: 38px;
+   font-size: 35px;
    font-family: Arial, Helvetica, sans-serif;
    margin-left: 73px;
 }
@@ -35,29 +36,52 @@
 }
 .skillPontos{
   color: white;
-  position: relative;
-  display: flex;
-  margin-top: 20px;
   margin-left: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  display: inline-flex;
 }
 .pontinhoAzul{
-    display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     color: aqua;
-    font-size: 100px;
-    position: relative;
+    font-size: 50px;
     margin-left: 80px;
-   
+    display: inline-flex;
 }
 .pontinhoCinza{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
     color: gray;
-    font-size: 100px;
+    font-size: 50px;
+    margin-left: 80px;
+    display: inline-flex;
 }
 hr{
     margin-left: 25px;
     width: 250px;
+}
+.margem{
+    background-color: white;
+    width: 550px;
+    height: 1000px;
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+}
+.titulos{
+    color:black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.textos{
+    font-family: Arial, Helvetica, sans-serif;
+     color:black;
+     margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
 }
