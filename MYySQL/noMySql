@@ -1,0 +1,13 @@
+create database loja;
+use loja;
+
+create table produtos (
+id int primary key auto_increment,
+nome varchar(100) not null,
+valor numeric(9,2),
+quantidade int not null
+);
+
+insert into produtos(nome,valor,quantidade) values('maçuí', 10.80, 10);
+
+select * from produtos;
