@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Cadastrar Produtos </h1>
+        <title>Cadastro de produto</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <form action="cadastroProduto.php" method="post">
+            <label for="">nome</label>
+            <input type="text" name="nome" id="">
+            <label for="">quantidade</label>
+            <input type="text" name="quantidade" id="">
+            <label for="">preço</label>
+            <input type="text" name="preco" id="">
+            <input type="submit" value="cadastrar">
+        </form>
+    </body>
+</html>
